@@ -1,0 +1,18 @@
+
+        void main(){
+            int index[10];
+            boolean a;
+            a=false;
+            int i,j;
+            for(i=0;i<10;i=i+1){
+               if(!a){
+                   putInt(i);
+                   putString(" ");
+               }
+               if(i==4){
+                   break;
+               }
+            }
+            
+        }
+        

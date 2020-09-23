@@ -1,0 +1,14 @@
+
+        void main(){
+            float x,y,z;
+            boolean a;
+            a=true;
+            x=4.545;
+            y=1.333;
+            z=5.667;
+            if(a==true){
+                x=x*y-z+(x*x-y*y);
+            }
+            putFloat(-x);
+        }
+        

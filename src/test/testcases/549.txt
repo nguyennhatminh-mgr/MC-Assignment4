@@ -1,0 +1,20 @@
+
+        void main(){
+            string a[20];
+            a[3]=createString(10)[5];
+            putString(a[3]);
+        }
+        string[] createString(int n){
+            string s[30];
+            if(n>=30){
+                putString("Index out of range");
+            }
+            else{
+                int i;
+                for(i=0;i<n;i=i+1){
+                    s[i]="PPL";
+                }
+            }
+            return s;
+        }
+        

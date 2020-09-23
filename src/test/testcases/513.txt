@@ -1,0 +1,7 @@
+
+                void main() { 
+                    int b;
+                    b = -5;
+                    putInt(b);
+                }
+                

@@ -1,0 +1,24 @@
+
+        void main(){
+            int a;
+            a=1;
+            if(a<=5){
+                if(a<2){
+                    a=a*a+a-5;
+                    putInt(a);
+                }
+                else{
+                    putString("a greater than or equal 2");
+                }
+            }
+            else{
+                if(a==10){
+                    putString("10 grade PPL");
+                }
+                else{
+                    a=(2*a*a)/(a+a);
+                    putInt(a);
+                }
+            }
+        }
+        

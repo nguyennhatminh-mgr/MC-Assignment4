@@ -1,0 +1,17 @@
+
+        void main(){
+            int arr[10];
+            arr[1]=-gt(4)[4];
+            putInt(arr[1]);
+        }
+        int[] gt(int n){
+            int arr[10];
+            if(n>=10){
+                putString("Index out of range");
+            }
+            else{
+                arr[n]=n*n;
+            }
+            return arr;
+        }
+        

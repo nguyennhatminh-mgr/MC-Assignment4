@@ -1,0 +1,10 @@
+
+                void main() { 
+                    int b;
+                    b=50;
+                    hello(b);
+                }
+                void hello(int a){
+                    putIntLn(a);
+                }
+                

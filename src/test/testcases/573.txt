@@ -1,0 +1,11 @@
+
+        void main(){
+            int index;
+            for(index=0;index<4;index=index+1){
+                if(index==3){
+                    putIntLn(index);
+                }
+                putIntLn(index*index);
+            }
+        }
+        

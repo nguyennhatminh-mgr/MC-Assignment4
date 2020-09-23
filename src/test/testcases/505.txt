@@ -1,0 +1,11 @@
+
+                int a;
+                void main() { 
+                    a=5;
+                    putInt(100);
+                }
+                void check(int c,int b){
+                   int hello;
+                   hello=5;
+                }
+                

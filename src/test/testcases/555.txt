@@ -1,0 +1,11 @@
+
+        void main(){
+            int a;
+            a=10;
+            int b;
+            b=11;
+            a=a+b-6;
+            putInt(a);
+        }
+        
+        

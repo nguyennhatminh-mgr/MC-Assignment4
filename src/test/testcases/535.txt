@@ -1,0 +1,6 @@
+
+        void main() {
+            boolean arr[10];
+            arr[1]=true;
+            putBool(arr[1]);
+        }

@@ -1,0 +1,12 @@
+
+                void main() { 
+                    int b;
+                    b = hello();
+                    putInt(b);
+                }
+                int hello(){
+                    int a;
+                    a=1;
+                    return a;
+                }
+                

@@ -1,0 +1,13 @@
+
+        void main(){
+            float arr[10];
+            arr[2]=func_arr()[3]+func_arr()[2];
+            putFloat(arr[2]);
+        }
+        float[] func_arr(){
+            float a[10];
+            a[3]=10;
+            a[2]=10;
+            return a;
+        }
+        

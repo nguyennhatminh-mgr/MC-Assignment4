@@ -1,0 +1,12 @@
+
+                void main() { 
+                    float b;
+                    b = -5.4;
+                    putFloat(b);
+                }
+                int hello(){
+                    int a;
+                    a=1;
+                    return a;
+                }
+                

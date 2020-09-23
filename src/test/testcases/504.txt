@@ -1,0 +1,9 @@
+
+                int a;
+                void main() { 
+                    a=5;
+                    putInt(100);
+                    {
+                        int b,c,d;
+                    }
+                }

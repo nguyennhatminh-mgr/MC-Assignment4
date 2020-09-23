@@ -1,0 +1,22 @@
+
+        void main(){
+            int a;
+            a=10;
+            if(a<=5){
+                if(a<2){
+                    putString("a less than 2");
+                }
+                else{
+                    putString("a greater than or equal 2");
+                }
+            }
+            else{
+                if(a==10){
+                    putString("10 grade PPL");
+                }
+                else{
+                    putString("Not 10 grade PPL");
+                }
+            }
+        }
+        

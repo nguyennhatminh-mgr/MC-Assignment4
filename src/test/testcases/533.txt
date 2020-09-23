@@ -1,0 +1,6 @@
+
+        void main() {
+            string arr[10];
+            arr[1]="hello";
+            putString(arr[1]);
+        }

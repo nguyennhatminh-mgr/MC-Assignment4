@@ -1,0 +1,8 @@
+
+        void main(){
+            int index;
+            for(index=0;index<5;index=index+1){
+                putStringLn("I LOVE PPL");
+            }
+        }
+        

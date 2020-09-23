@@ -1,0 +1,7 @@
+
+        void main(){
+            int i;
+            i=0;
+            do putInt(3); i=i+1; while(i<4);
+        }
+        

@@ -1,0 +1,13 @@
+
+        void main(){
+            int arr[10];
+            arr=get_int(4,5);
+            putInt(arr[0]);
+        }
+        int[] get_int(int n, int m){
+            int arr[10];
+            arr[0]=n;
+            arr[1]=m;
+            return arr;
+        }
+        

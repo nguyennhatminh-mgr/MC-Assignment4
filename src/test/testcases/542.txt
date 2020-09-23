@@ -1,0 +1,13 @@
+
+        void main(){
+            int arr[10];
+            arr[4]=10;
+            arr[0]=func_arr()[3]+arr[4];
+            putInt(arr[0]);
+        }
+        int[] func_arr(){
+            int a[10];
+            a[3]=10;
+            return a;
+        }
+        

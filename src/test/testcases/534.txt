@@ -1,0 +1,7 @@
+
+        void main() {
+            string arr[10];
+            arr[1]="hello PPL";
+            arr[2]=arr[1];
+            putString(arr[2]);
+        }

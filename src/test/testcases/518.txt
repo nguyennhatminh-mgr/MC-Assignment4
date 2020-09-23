@@ -1,0 +1,12 @@
+
+                void main() { 
+                    int a;
+                    a=3;
+                    if(a>=10)
+                        putInt(a);
+                    else{
+                        putString("Have ELSE");
+                    }
+                }
+                
+                

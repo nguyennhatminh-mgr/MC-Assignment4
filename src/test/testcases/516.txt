@@ -1,0 +1,8 @@
+
+                void main() { 
+                    string b;
+                    b="hello";
+                    putStringLn(b);
+                }
+                
+                

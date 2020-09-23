@@ -1,0 +1,9 @@
+
+                void main() { 
+                    int a;
+                    a=13;
+                    if(a>=10)
+                        putInt(a);
+                }
+                
+                

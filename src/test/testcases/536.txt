@@ -1,0 +1,10 @@
+
+        void main() {
+            boolean arr[10];
+            arr[1]=true;
+            arr[2]=false;
+            arr[3]=arr[1];
+            arr[4]=arr[1] || arr[2];
+            putBoolLn(arr[3]);
+            putBool(arr[4]);
+        }

@@ -1,0 +1,30 @@
+
+        void main(){
+            int index[10];
+            index[0]=5;
+            index[1]=10;
+            index[2]=7;
+            index[3]=6;
+            index[4]=19;
+            index[5]=23;
+            index[6]=15;
+            index[7]=18;
+            index[8]=23;
+            index[9]=16;
+            int i,j;
+            for(i=0;i<10;i=i+1){
+                for(j=1;j<i;j=j+1){
+                    if(index[i]<index[j]){
+                        int temp;
+                        temp=index[i];
+                        index[i]=index[j];
+                        index[j]=temp;
+                    }
+                }
+            }
+            for(i=0;i<10;i=i+1){
+                putInt(index[i]);
+                putString(" ");
+            }
+        }
+        

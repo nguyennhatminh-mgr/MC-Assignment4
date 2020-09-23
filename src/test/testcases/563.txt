@@ -1,0 +1,13 @@
+
+        boolean arr[10];
+        void main(){
+            arr[1]=false;
+            arr[2]=true;
+            if(arr[1]==true){
+                putString("PPL is always right");
+            }
+            else{
+                putBool(arr[2]);
+            }
+        }
+        

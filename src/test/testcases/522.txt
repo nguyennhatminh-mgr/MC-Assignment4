@@ -1,0 +1,12 @@
+
+                void main() { 
+                   int i;
+                   i=0;
+                   do{
+                       putInt(i);
+                       i=i+1;
+                   }
+                   while(i<6);
+                }
+                
+                

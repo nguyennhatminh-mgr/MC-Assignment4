@@ -1,0 +1,14 @@
+
+        void main(){
+            int a;
+            a=4;
+            if(a<=5){
+                if(a<2){
+                    putString("a less than 2");
+                }
+                else{
+                    putString("a greater than or equal 2");
+                }
+            }
+        }
+        

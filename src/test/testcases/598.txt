@@ -1,0 +1,12 @@
+           
+        void main(){
+            float a,b;
+            a=1.4;
+            b=5.6;
+            if(a<b){
+                putString("a < b");
+            }
+            else{
+                putString("a > b");
+            }
+        }
